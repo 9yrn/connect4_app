@@ -1,17 +1,14 @@
 # connect4_app
 
-A new Flutter project.
+A flutter based Connect 4 game where the player competes with an AI apponent. The app includes selectable difficulty leves, ability to undo turns, win/loss/draw tracking, and a persistent score storage mechanism using SharedPreferences.
 
-## Getting Started
+This project is structured using mvvm, with dedicated layers for game logic, models, view models, services and UI widgets. It also includes unit testing for core game mechanics such as valid moves, disc placementm win detection, draw checksm and board updates.
 
-This project is a starting point for a Flutter application.
+# Features
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Human vs AI connect 4 gameplay
+- Easy, medium, and hard difficulty options
+- Undo previous turn functionality
+- Persistent win, lost, and draw scores
+- Clean Flutter UI with provider state management
+- Unit tested Game Logic
